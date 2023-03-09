@@ -2,7 +2,6 @@ const { calculatorObj } = require('../server/calculator.js')
 const { Calculator } = require('../server/calculator.js')
 const calculator = new Calculator()
 
-console.log('require statement', require('../server/calculator.js'))
 
 describe('calculator test', () => {
     test('calculator is an object', () => {
